@@ -2,7 +2,10 @@
   font-family: 'fallback-thai';
   src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf');
 }
-
+@font-face {
+  font-family: 'ta8bit';
+  src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf');
+}
 .font-tiny { font-family: 'tiny', 'fallback-thai'; font-size: 8px; line-height: 8px; }
 .font-small_tight { font-family: 'small_tight', 'fallback-thai'; font-size: 8px; line-height: 8px; }
 .font-small_harsh { font-family: 'small_harsh', 'fallback-thai'; font-size: 8px; line-height: 9px; }
@@ -14,5 +17,14 @@
 .font-ui_regular { font-family: 'ui_regular', 'fallback-thai'; font-size: 8px; line-height: 8px; }
 .font-large { font-family: 'large', 'fallback-thai'; font-size: 8px; line-height: 10px; }
 #EntryPermitInner .marktxt {
-  font-family: 'regular' !important;
+  font-family: 'regular', 'fallback-thai' !important;
+}
+#PassportInnerAntegria .nation,
+#PassportInnerRepublia .nation,
+#PassportInnerKolechia .nation,
+#PassportInnerObristan .nation,
+#PassportInnerImpor .nation,
+#PassportInnerUnitedFed .nation,
+#PassportInnerArstotzka .nation {
+  font-family: 'ta8bit', sans-serif !important;
 }
