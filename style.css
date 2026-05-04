@@ -1,16 +1,8 @@
 @font-face { 
     font-family: 'regular'; 
-    src: url('https://raw.githubusercontent.com/SEAFOOD667/TA-8-bit/main/TA8bit.ttf') format('truetype'); 
+    src: url('https://raw.githubusercontent.com/SEAFOOD667/TA-8-bit/main/TA8bit.ttf'); 
 }
 
 * {
     font-family: 'regular' !important;
-    image-rendering: pixelated !important;
-    font-smooth: never !important;
-    -webkit-font-smoothing: none !important;
-}
-
-.font-regular, body { 
-    font-size: 16px !important; 
-    line-height: 16px !important;
 }
