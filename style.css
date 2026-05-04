@@ -1,19 +1,16 @@
 @font-face { 
     font-family: 'regular'; 
-    src: url('https://raw.githubusercontent.com/SEAFOOD667/TA-8-bit/main/TA%208%20bit.ttf'); 
+    src: url('https://raw.githubusercontent.com/SEAFOOD667/TA-8-bit/main/TA8bit.ttf') format('truetype'); 
 }
 
-/* บังคับทุกส่วนให้เป็นพิกเซล */
 * {
     font-family: 'regular' !important;
-    image-rendering: pixelated; /* สำคัญ: ทำให้ภาพ/ฟอนต์แตกเป็นเม็ดพิกเซล */
-    font-smooth: never !important; /* ปิดความนิ่มของฟอนต์ */
-    -webkit-font-smoothing: none !important; /* ปิดการเกลี่ยขอบสำหรับ Chrome/Safari */
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeSpeed;
+    image-rendering: pixelated !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing: none !important;
 }
 
 .font-regular, body { 
-    font-size: 12px !important; /* ปรับขนาดให้เล็กลงเพื่อให้พิกเซลเรียงตัวสวย */
-    line-height: 12px !important;
+    font-size: 16px !important; 
+    line-height: 16px !important;
 }
