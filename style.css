@@ -5,9 +5,6 @@
 @font-face {
   font-family: 'ta8bit';
   src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf');
-@font-face {
-  font-family: 'fallback';
-  src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf');
 }
 .font-tiny { font-family: 'tiny', 'fallback-thai'; font-size: 8px; line-height: 8px; }
 .font-small_tight { font-family: 'small_tight', 'fallback-thai'; font-size: 8px; line-height: 8px; }
