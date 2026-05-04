@@ -13,3 +13,6 @@
 .font-title_thick { font-family: 'title_thick', 'fallback-thai'; font-size: 14px; line-height: 11px; }
 .font-ui_regular { font-family: 'ui_regular', 'fallback-thai'; font-size: 8px; line-height: 8px; }
 .font-large { font-family: 'large', 'fallback-thai'; font-size: 8px; line-height: 10px; }
+#EntryPermitInner .marktxt {
+  font-family: 'regular' !important;
+}
