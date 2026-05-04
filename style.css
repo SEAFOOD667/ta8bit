@@ -51,8 +51,8 @@
   font-size: 14px !important;
 }
 
-html {
-  zoom: 1.5;
+html, body, div, span, p {
+  font-size: 16px !important;
 }
 
 * {
