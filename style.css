@@ -26,5 +26,5 @@
 #PassportInnerImpor .nation,
 #PassportInnerUnitedFed .nation,
 #PassportInnerArstotzka .nation {
-  font-family: 'ta8bit', sans-serif !important;
+  font-family: 'ta8bit', 'sans-serif' !important;
 }
