@@ -56,6 +56,10 @@
   font-size: 14px !important;
 }
 
+.ui, .ui * {
+  font-size: 14px !important;
+}
+
 body {
   font-smooth: never;
   -webkit-font-smoothing: none;
