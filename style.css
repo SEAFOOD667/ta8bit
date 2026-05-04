@@ -56,11 +56,6 @@
   font-size: 14px !important;
 }
 
-.ui, .ui * {
-  font-size: 20px !important;
-  line-height: 1.5 !important;
-}
-
 body {
   font-smooth: never;
   -webkit-font-smoothing: none;
