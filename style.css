@@ -1,30 +1,58 @@
-@font-face {
-  font-family: 'fallback-thai';
-  src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf');
+@font-face { font-family: 'tiny'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'small_tight'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'small_harsh'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'regular'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'regular_short'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'title_tall'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'title_news'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'title_thick'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'ui_regular'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'large'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'small'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'title_serif'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'cursive'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'scribble'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'press'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'propaganda'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'kid_writing'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'news'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'passport_arstotzka'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'passport_republia'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'passport_unitedfed'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'passport_kolechia'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'fallback'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'fallback-thai'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'ta8bit'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'Outfit'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'Arial'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+@font-face { font-family: 'Arial Black'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
+
+.font-tiny { font-family: 'tiny'; font-size: 12px; line-height: 12px; }
+.font-small_tight { font-family: 'small_tight'; font-size: 12px; line-height: 12px; }
+.font-small_harsh { font-family: 'small_harsh'; font-size: 12px; line-height: 13px; }
+.font-regular, body { font-family: 'regular'; font-size: 12px; line-height: 12px; }
+.font-regular_short { font-family: 'regular_short'; font-size: 12px; line-height: 12px; }
+.font-title_tall { font-family: 'title_tall'; font-size: 20px; line-height: 20px; }
+.font-title_news { font-family: 'title_news'; font-size: 20px; line-height: 20px; }
+.font-title_thick { font-family: 'title_thick'; font-size: 18px; line-height: 15px; }
+.font-ui_regular { font-family: 'ui_regular'; font-size: 12px; line-height: 12px; }
+.font-large { font-family: 'large'; font-size: 12px; line-height: 14px; }
+.font-small { font-family: 'small'; font-size: 12px; line-height: 12px; }
+.font-title_serif { font-family: 'title_serif'; font-size: 14px; line-height: 14px; }
+.font-cursive { font-family: 'cursive'; font-size: 12px; line-height: 12px; }
+.font-scribble { font-family: 'scribble'; font-size: 20px; line-height: 20px; }
+.font-press { font-family: 'press'; font-size: 26px; line-height: 26px; }
+.font-propaganda { font-family: 'propaganda'; font-size: 14px; line-height: 14px; }
+.font-kid_writing { font-family: 'kid_writing'; font-size: 20px; line-height: 20px; }
+.font-news { font-family: 'news'; font-size: 27px; line-height: 38px; }
+
+* {
+  font-family: 'ta8bit', 'fallback' !important;
+  font-size: 12px;
 }
-@font-face {
-  font-family: 'ta8bit';
-  src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf');
-}
-.font-tiny { font-family: 'tiny', 'fallback-thai'; font-size: 10px; line-height: 10px; }
-.font-small_tight { font-family: 'small_tight', 'fallback-thai'; font-size: 10px; line-height: 10px; }
-.font-small_harsh { font-family: 'small_harsh', 'fallback-thai'; font-size: 10px; line-height: 10px; }
-.font-regular, body { font-family: 'regular', 'fallback-thai'; font-size: 10px; line-height: 11px; }
-.font-regular_short { font-family: 'regular_short', 'fallback-thai'; font-size: 10px; line-height: 10px; }
-.font-title_tall { font-family: 'title_tall', 'fallback-thai'; font-size: 18px; line-height: 18px; }
-.font-title_news { font-family: 'title_news', 'fallback-thai'; font-size: 18px; line-height: 18px; }
-.font-title_thick { font-family: 'title_thick', 'fallback-thai'; font-size: 16px; line-height: 13px; }
-.font-ui_regular { font-family: 'ui_regular', 'fallback-thai'; font-size: 10px; line-height: 10px; }
-.font-large { font-family: 'large', 'fallback-thai'; font-size: 10px; line-height: 12px; }
-#EntryPermitInner .marktxt {
-  font-family: 'regular', 'fallback-thai' !important;
-}
-#PassportInnerAntegria .nation,
-#PassportInnerRepublia .nation,
-#PassportInnerKolechia .nation,
-#PassportInnerObristan .nation,
-#PassportInnerImpor .nation,
-#PassportInnerUnitedFed .nation,
-#PassportInnerArstotzka .nation {
-  font-family: 'ta8bit', 'sans-serif' !important;
+
+body {
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  text-rendering: optimizeSpeed !important;
 }
