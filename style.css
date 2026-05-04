@@ -3,12 +3,17 @@
     src: url('https://raw.githubusercontent.com/SEAFOOD667/TA-8-bit/main/TA%208%20bit.ttf'); 
 }
 
-/* คำสั่งบังคับให้ทุกอย่างเป็นฟอนต์ไทยและปิดความคมชัดแบบนวล (Smooth) */
-.font-regular, body, div, span, p { 
-    font-family: 'regular' !important; 
-    font-size: 16px !important; /* ลองปรับเลขนี้ให้พอดีกับช่อง */
-    line-height: 16px !important;
-    image-rendering: pixelated; /* บังคับให้เป็นพิกเซล */
-    font-smooth: never;
-    -webkit-font-smoothing: none;
+/* บังคับทุกส่วนให้เป็นพิกเซล */
+* {
+    font-family: 'regular' !important;
+    image-rendering: pixelated; /* สำคัญ: ทำให้ภาพ/ฟอนต์แตกเป็นเม็ดพิกเซล */
+    font-smooth: never !important; /* ปิดความนิ่มของฟอนต์ */
+    -webkit-font-smoothing: none !important; /* ปิดการเกลี่ยขอบสำหรับ Chrome/Safari */
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeSpeed;
+}
+
+.font-regular, body { 
+    font-size: 12px !important; /* ปรับขนาดให้เล็กลงเพื่อให้พิกเซลเรียงตัวสวย */
+    line-height: 12px !important;
 }
