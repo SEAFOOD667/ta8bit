@@ -27,29 +27,29 @@
 @font-face { font-family: 'Arial'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
 @font-face { font-family: 'Arial Black'; src: url('https://seafood667.github.io/ta8bit/ta8bit.ttf'); }
 
-.font-tiny { font-family: 'tiny'; font-size: 28px; line-height: 8px; }
-.font-small_tight { font-family: 'small_tight'; font-size: 28px; line-height: 8px; }
-.font-small_harsh { font-family: 'small_harsh'; font-size: 28px; line-height: 9px; }
-.font-regular, body { font-family: 'regular'; font-size: 28px; line-height: 8px; }
-.font-regular_short { font-family: 'regular_short'; font-size: 28px; line-height: 8px; }
-.font-title_tall { font-family: 'title_tall'; font-size: 36px; line-height: 16px; }
-.font-title_news { font-family: 'title_news'; font-size: 36px; line-height: 16px; }
-.font-title_thick { font-family: 'title_thick'; font-size: 34px; line-height: 11px; }
-.font-ui_regular { font-family: 'ui_regular'; font-size: 28px; line-height: 8px; }
-.font-large { font-family: 'large'; font-size: 28px; line-height: 10px; }
-.font-small { font-family: 'small'; font-size: 28px; line-height: 8px; }
-.font-title_serif { font-family: 'title_serif'; font-size: 30px; line-height: 10px; }
-.font-cursive { font-family: 'cursive'; font-size: 28px; line-height: 8px; }
-.font-scribble { font-family: 'scribble'; font-size: 36px; line-height: 16px; }
-.font-press { font-family: 'press'; font-size: 42px; line-height: 22px; }
-.font-propaganda { font-family: 'propaganda'; font-size: 30px; line-height: 10px; }
-.font-kid_writing { font-family: 'kid_writing'; font-size: 36px; line-height: 16px; }
-.font-news { font-family: 'news'; font-size: 43px; line-height: 34px; }
+.font-tiny { font-family: 'tiny'; font-size: 14px; line-height: 8px; }
+.font-small_tight { font-family: 'small_tight'; font-size: 14px; line-height: 8px; }
+.font-small_harsh { font-family: 'small_harsh'; font-size: 14px; line-height: 9px; }
+.font-regular, body { font-family: 'regular'; font-size: 14px; line-height: 8px; }
+.font-regular_short { font-family: 'regular_short'; font-size: 14px; line-height: 8px; }
+.font-title_tall { font-family: 'title_tall'; font-size: 20px; line-height: 16px; }
+.font-title_news { font-family: 'title_news'; font-size: 20px; line-height: 16px; }
+.font-title_thick { font-family: 'title_thick'; font-size: 18px; line-height: 11px; }
+.font-ui_regular { font-family: 'ui_regular'; font-size: 14px; line-height: 8px; }
+.font-large { font-family: 'large'; font-size: 14px; line-height: 10px; }
+.font-small { font-family: 'small'; font-size: 14px; line-height: 8px; }
+.font-title_serif { font-family: 'title_serif'; font-size: 16px; line-height: 10px; }
+.font-cursive { font-family: 'cursive'; font-size: 14px; line-height: 8px; }
+.font-scribble { font-family: 'scribble'; font-size: 20px; line-height: 16px; }
+.font-press { font-family: 'press'; font-size: 26px; line-height: 22px; }
+.font-propaganda { font-family: 'propaganda'; font-size: 16px; line-height: 10px; }
+.font-kid_writing { font-family: 'kid_writing'; font-size: 20px; line-height: 16px; }
+.font-news { font-family: 'news'; font-size: 27px; line-height: 34px; }
 
 * {
   font-family: 'ta8bit', 'fallback' !important;
+  font-size: 14px;
 }
-
 body {
   font-smooth: never;
   -webkit-font-smoothing: none;
